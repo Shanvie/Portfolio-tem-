@@ -10,7 +10,8 @@ Built using **pure HTML, CSS, and minimal JavaScript**, this portfolio focuses o
 
 Here is a glimpse of the main landing page:
 
-![Hero Section Screenshot](assets/hero-screenshot.png)
+![Hero Section Screenshot](<img width="1903" height="905" alt="image" src="https://github.com/user-attachments/assets/94b22826-6567-48a5-9066-621d8e5eb6b2" />
+)
 
 > If the image does not appear, ensure the file **hero-screenshot.png** is inside the **assets** folder.
 
