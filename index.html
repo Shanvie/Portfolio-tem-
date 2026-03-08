@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akshita Swarnkar | Frontend Developer & Prompt Engineer</title>
+    <!-- Google Fonts for typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- Material Icons for UI elements -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">Akshita S.</div>
+                <div class="menu-toggle" onclick="toggleMenu()">
+                    <span class="material-icons-round">menu</span>
+                </div>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#contact" class="btn-resume">Hire Me</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <div class="hero-badges">
+                            <span class="badge">Frontend Developer</span>
+                            <span class="badge">Prompt Engineer</span>
+                        </div>
+                        <h1>Hello, I'm<br><span style="color: var(--primary-color);">Akshita Swarnkar</span></h1>
+                        <h2>Building responsive websites & crafting structured AI prompts</h2>
+                        <p style="margin-bottom: 30px; color: #555;">
+                            A creative technologist and student at Vidyalankar Polytechnic. I blend technical coding skills with creative problem solving to build digital experiences that work.
+                        </p>
+                        <div class="hero-btns">
+                            <a href="#projects" class="btn btn-primary">
+                                <span class="material-icons-round">work</span> View Work
+                            </a>
+                            <a href="#contact" class="btn btn-outline">
+                                <span class="material-icons-round">mail</span> Contact Me
+                            </a>
+                        </div>
+                    </div>
+                    <div class="hero-image">
+                        <div class="image-frame">
+                            <!-- Using the user provided image -->
+                            <img src="https://z-cdn-media.chatglm.cn/files/2e134157-ed76-40a9-8594-ed8b9b144392.png?auth_key=1872990798-278235cd9bfb4a0fadc0185e7f291ee2-0-cdb55b3a29f21c8191f1a7c481a2ed2f" alt="Akshita Swarnkar">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About & Skills -->
+        <section id="about">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <p class="subtitle">My expertise & capabilities</p>
+                
+                <div class="skills-grid" id="skills">
+                    <div class="skill-card">
+                        <span class="material-icons-round skill-icon">code</span>
+                        <h3>Frontend Development</h3>
+                        <p>Building responsive, user-centric websites with modern web technologies.</p>
+                    </div>
+                    <div class="skill-card">
+                        <span class="material-icons-round skill-icon">psychology</span>
+                        <h3>Prompt Engineering</h3>
+                        <p>Crafting structured AI prompts to enhance performance and usability.</p>
+                    </div>
+                    <div class="skill-card">
+                        <span class="material-icons-round skill-icon">groups</span>
+                        <h3>Leadership</h3>
+                        <p>Leading technical projects and coordinating team tasks effectively.</p>
+                    </div>
+                    <div class="skill-card">
+                        <span class="material-icons-round skill-icon">movie_edit</span>
+                        <h3>Video Editing</h3>
+                        <p>Creating engaging digital content for entertainment and education.</p>
+                    </div>
+                    <div class="skill-card">
+                        <span class="material-icons-round skill-icon">lightbulb</span>
+                        <h3>Critical Thinking</h3>
+                        <p>Solving complex problems with analytical and creative approaches.</p>
+                    </div>
+                    <div class="skill-card">
+                        <span class="material-icons-round skill-icon">school</span>
+                        <h3>Teaching</h3>
+                        <p>Experience as Junior Faculty teaching foundational programming.</p>
+                    </div>
+                </div>
+
+                <!-- Languages -->
+                <div style="text-align: center; margin-top: 50px;">
+                    <h4>Languages I Speak</h4>
+                    <div class="lang-container">
+                        <div class="lang-item"><span>🇬🇧</span>English</div>
+                        <div class="lang-item"><span>🇮🇳</span>Hindi</div>
+                        <div class="lang-item"><span>🇯🇵</span>Japanese</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience & Education -->
+        <section id="experience" style="background-color: var(--bg-alt);">
+            <div class="container">
+                <h2 class="section-title">My Journey</h2>
+                <p class="subtitle">Education & Professional Experience</p>
+
+                <div class="timeline-section">
+                    <!-- Experience Column -->
+                    <div class="timeline-column">
+                        <h3>Experience</h3>
+                        
+                        <div class="timeline-item">
+                            <span class="timeline-date">2021 - Current</span>
+                            <div class="timeline-title">Part-time Freelancer</div>
+                            <div class="timeline-subtitle">Frontend Developer & Prompt Engineer</div>
+                            <div class="timeline-desc">Build responsive websites and craft structured AI prompts to enhance performance and usability.</div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <span class="timeline-date">2024 - Current</span>
+                            <div class="timeline-title">Executive Member</div>
+                            <div class="timeline-subtitle">Girls Who Code</div>
+                            <div class="timeline-desc">Contributing to initiatives and supporting the coding community.</div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <span class="timeline-date">2023 - 2024</span>
+                            <div class="timeline-title">Junior Faculty & Web Developer</div>
+                            <div class="timeline-subtitle">Amrita Vidyalayam</div>
+                            <div class="timeline-desc">Taught foundational programming skills and contributed to developing and maintaining small-scale web projects for school initiatives.</div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <span class="timeline-date">Project Builder</span>
+                            <div class="timeline-title">Project Manager</div>
+                            <div class="timeline-desc">Lead and contribute to technical projects, coordinate team tasks, and support planning and execution of coding initiatives.</div>
+                        </div>
+                    </div>
+
+                    <!-- Education Column -->
+                    <div class="timeline-column">
+                        <h3>Education</h3>
+
+                        <div class="timeline-item">
+                            <span class="timeline-date">2022 - 2025</span>
+                            <div class="timeline-title">Diploma in Electronics and Computer Engineering</div>
+                            <div class="timeline-subtitle">Vidyalankar Polytechnic</div>
+                            <div class="timeline-desc">Currently pursuing diploma studies.</div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <span class="timeline-date">2024</span>
+                            <div class="timeline-title">CS50 Certificate</div>
+                            <div class="timeline-subtitle">Harvard University</div>
+                            <div class="timeline-desc">Gained strong foundations in programming, problem-solving, algorithms, and data structures.</div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <span class="timeline-date">2019 - 2023</span>
+                            <div class="timeline-title">High School & Coding Course</div>
+                            <div class="timeline-subtitle">Graduated with Honors / Whitehat Jr</div>
+                            <div class="timeline-desc">Graduated high school with honors. Completed a 3-year coding course focused on fundamentals and project-based learning.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Awards -->
+        <section id="awards">
+            <div class="container">
+                <h2 class="section-title">Awards</h2>
+                <p class="subtitle">Recognitions & Certificates</p>
+                
+                <div class="awards-grid">
+                    <div class="award-item">
+                        <span class="material-icons-round award-icon">emoji_events</span>
+                        <div>
+                            <h4>M-indicator Drawing Competition</h4>
+                            <p style="font-size: 0.9rem; color: #666;">Award Winner</p>
+                        </div>
+                    </div>
+                    <div class="award-item">
+                        <span class="material-icons-round award-icon">card_membership</span>
+                        <div>
+                            <h4>Girls Who Code</h4>
+                            <p style="font-size: 0.9rem; color: #666;">Pathways Certificate</p>
+                        </div>
+                    </div>
+                    <div class="award-item">
+                        <span class="material-icons-round award-icon">code</span>
+                        <div>
+                            <h4>Google Summer of Code</h4>
+                            <p style="font-size: 0.9rem; color: #666;">Participation Certificate</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section id="projects" style="background-color: var(--bg-alt);">
+            <div class="container">
+                <h2 class="section-title">Projects</h2>
+                <p class="subtitle">What I've been working on</p>
+
+                <div style="display: flex; justify-content: center;">
+                    <div class="project-card" style="max-width: 600px; width: 100%;">
+                        <div class="project-img-placeholder">
+                            <span class="material-icons-round" style="font-size: 4rem;">sentiment_very_satisfied</span>
+                        </div>
+                        <div class="project-content">
+                            <h3 style="margin-bottom: 10px;">Motive2Meme</h3>
+                            <p style="color: #555; margin-bottom: 15px;">
+                                A Youtube & Instagram page dedicated to entertaining people by posting exam and school relatable memes. It focuses on digital content creation and engaging a student audience.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">Content Creation</span>
+                                <span class="tag">Video Editing</span>
+                                <span class="tag">Social Media</span>
+                            </div>
+                            <a href="#" style="color: var(--primary-color); font-weight: 600; display: flex; align-items: center; gap: 5px;">
+                                View Channel <span class="material-icons-round" style="font-size: 1rem;">arrow_forward</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="subtitle" style="color: rgba(255,255,255,0.8);">Let's build something amazing together</p>
+
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <h3>Contact Information</h3>
+                        <p style="margin-bottom: 30px; opacity: 0.9;">
+                            Feel free to reach out for freelance projects, collaboration, or just to say hi!
+                        </p>
+                        
+                        <div class="contact-detail">
+                            <span class="material-icons-round">phone</span>
+                            <span>+91 9167869324</span>
+                        </div>
+                        <div class="contact-detail">
+                            <span class="material-icons-round">email</span>
+                            <span>akshitawhithat.code@gmail.com</span>
+                        </div>
+                        <div class="contact-detail">
+                            <span class="material-icons-round">location_on</span>
+                            <span>Ragunath Nivas, sec-23, Juinagar, Navi Mumbai, Maharashtra, INDIA</span>
+                        </div>
+                    </div>
+
+                    <div class="contact-form">
+                        <form onsubmit="event.preventDefault(); alert('Thank you for your message! This is a demo form.');">
+                            <input type="text" placeholder="Your Name" required>
+                            <input type="email" placeholder="Your Email" required>
+                            <textarea rows="4" placeholder="Your Message" required></textarea>
+                            <button type="submit" class="btn-submit">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Akshita Swarnkar. All Rights Reserved.</p>
+            <p style="font-size: 0.8rem; margin-top: 10px;">Frontend Developer & Prompt Engineer</p>
+        </div>
+    </footer>
+
+    <script src="main.js">
+    
+    </script>
+</body>
+</html>
